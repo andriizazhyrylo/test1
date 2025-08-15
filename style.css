@@ -17,7 +17,8 @@
     width: 300px;
     height: 200px;
     margin-bottom: 20px;
-  border: 1px solid #000;
+    border: 1px solid #000;
+    position: relative;
 }
 
 .ukraine {
@@ -25,3 +26,18 @@
     #0057b7 0%, #0072ce 50%, 
     #ffd700 50%, #ffdc00 100%);
 }
+
+.japan{
+    background-color: white;
+}
+.japan-circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
