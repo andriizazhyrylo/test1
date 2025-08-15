@@ -84,3 +84,17 @@
   background-color: #d72828;
   z-index: 2;
 }
+
+.czech{
+    background: linear-gradient(to bottom, 
+    #ffffff 0%, #ffffff 50%, 
+    #ff0000 50%, #ff0000 100%);
+}
+
+.triangle{
+    position: absolute;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 150px solid #11457e;
+  z-index: 2;
+}
